@@ -1,0 +1,9 @@
+.item-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-actions button {
+    margin-bottom: 0;
+}

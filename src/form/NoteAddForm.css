@@ -1,0 +1,11 @@
+.form-error {
+    position: absolute;
+    color: red;
+    top: -2.3rem;
+    font-size: 1.2rem;
+}
+
+.submit-button-container {
+    position: relative;
+    margin-top: 3rem;
+}

@@ -1,0 +1,11 @@
+.grades-input-container {
+    display: flex;
+}
+
+.grades-input {
+    margin-right: 1rem;
+}
+
+.grades-list {
+    margin-bottom: 1.5rem;
+}

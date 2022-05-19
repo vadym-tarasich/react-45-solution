@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.root-container {
+  height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  box-sizing: border-box;
+  border-bottom: 3px solid #9b4dca;
+}
+
+.header h2 {
+  margin-bottom: 0;
+}
+
+.content {
+  height: calc(100% - 60px);
+  overflow: hidden;
+}
+
+.left-column {
+  overflow: scroll;
+}
+
+.right-column {
+  height: 100%;
+  border-left: 1px solid #909090;
+}
+
+/* Custom size */
+.button-small {
+  font-size: .8rem;
+  height: 2.8rem;
+  line-height: 2.8rem;
+  padding: 0 1.5rem;
+}
+
+input[type="text"]:disabled {
+  background: #dddddd;
+  cursor: not-allowed;
+}
